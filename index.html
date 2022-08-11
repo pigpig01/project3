@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-  <script>document.write("Hello,World")</script>
+  <script>
+    document.write("Hello,World")
+  </script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Technical Documentation Page</title>
@@ -12,28 +14,35 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 </head>
 
+
 <body>
   <nav id="navbar">
-    <header id="title">Introduction to .Net</header>
+    <header id="title">Introduction_to_.Net</header>
     <ul>
       <li><a class="nav-link" href="#introduction" rel="internal">Introduction</a></li>
       <li><a class="nav-link" href="#documentation_topics" rel="internal">Documentation Topics</a></li>
-      <li><a class="nav-link" href="#html_basics" rel="internal">.NET Getting Started</a></li>
+      <li><a class="nav-link" href="#what's_the_.NET" rel="internal">What's the .NET</a></li>
+      <li><a class="nav-link" href="#About_.NET_Framework Data_Types" rel="internal">About .NET Framework Data Types</a></li>
       <li><a class="nav-link" href="#references" rel="internal">References</a></li>
+
     </ul>
   </nav>
 
   <main id="main-doc">
     <section class="main-section" id="introduction">
+
       <header>Introduction</header>
       <article>
         <p>NET is an open source development platform that is simply a collection of languages and libraries that work together to produce a variety of applications!<a class="super" href="#1" rel="internal"><sup>[1]</sup></a></p>
+        <code> .NET Core, in an effort to include cross-platform support for .NET, including Linux and macOS </code>
 
         <p>
           For another (overlapping) set of links to learning resources, see the <a href="https://docs.microsoft.com/zh-cn/shows/net-core-101/what-is-net" target="_blank"> .Net Learning pages. </a>
         </p>
+        <code> NOTE: .NET fully supports C# and F# (and C++/CLI as of 3.1; only enabled on Windows) and supports Visual Basic .NET (for version 15.5 in .NET Core 5.0.100-preview.4, and some old versions supported in old .NET Core). </code>
       </article>
     </section>
+
     <section class="main-section" id="documentation_topics">
       <header>Documentation Topics</header>
       <article>
@@ -41,39 +50,70 @@
         <ul>
           <li> <a href="https://docs.microsoft.com/zh-cn/dotnet/core/get-started"> The basics of .NET</a> — Documentation on how to get started quickly with .</li>
           <li> <a href="https://reference.sitepoint.com/html/page-structure" target="_blank"> .NET Overview </a> — The most comprehensive .NET overview.</li>
-          </ul>
-        
+        </ul>
+
       </article>
     </section>
-    <section class="main-section" id="web_best_practices">
+
+    <section class="main-section" id="what's_the_.NET">
       <header>what's the .NET</header>
       <article>
         <p>NET is a free, cross-platform, open source developer platform for generating many types of applications. NET is built on the high-performance runtime used by many large-scale applications in production.</p>
 
+        <code> .NET Core 3 adds support for Windows desktop application development and significant performance improvements throughout the base library.
+        </code>
+        <p> .NET supports use of NuGet packages
+          <p />
+
+          <code> Unlike .NET Framework, which is serviced using Windows Update </code>
+
+
         <ul>
           <li>Cloud Applications</li>
+          <p> .NET natively and are integrated with Visual Studio developer tools. Use project templates to get started faster and powerful debugging, publishing, and CI/CD tools to be more productive with cloud app development, deployment, and
+            monitoring. </p>
+          <br>
 
-          <li>Cloud Native Applications
+          <code> If you haven't yet decided on a cloud, we recommend Azure. Azure is the best cloud for .NET developers because it was built with .NET developers in mind. </code>
+
+          <li>
+            <p>Cloud Native Applications
               Console Applications
               Serverless Functions in the Cloud
               Web Applications, Web APIs and Microservices
-              Cross-Platform Client Applications
+              Cross-Platform Client Applications</p>
 
-              Desktop Applications
-              Games
-              Mobile Applications
-              Windows Applications
 
-              Windows Desktop Applications
-              Windows Forms
-              Windows WPF
-              Universal Windows Platform (UWP)
-              Windows Services
-              Other Application Types
+            <p>Desktop Applications
+              Games</p>
+            <p>Mobile Applications</p>
+            <p>Windows Applications</p>
 
-              Machine Learning
-              Internet of Things (IoT)</li>
-            </ul>
+            <p>Windows Desktop Applications</p>
+            <p>Windows Forms</p>
+            <p>Windows WPF</p>
+            <p>Universal Windows Platform (UWP)</p>
+            <p>Windows Services</p>
+            <p>Other Application Types</p>
+            <p>Machine Learning</p>
+            <p>Internet of Things (IoT)</p>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="main-section" id="About_.NET_Framework Data_Types">
+      <header>About .NET Framework Data Types</header>
+
+      <article>
+
+        <p>his section contains the information you need to translate the script-oriented Object Model Reference into Microsoft .NET Framework base data types. The Windows Media Player script reference has almost all the information you need to use
+          the Windows Media Player control in a .NET Framework-based program, and in most cases, the syntax will be similar to that of other scripting languages such as Microsoft JScript.</p>
+
+        <p>The Windows Media Player reference provides the JScript data type and, if necessary, the C++ conversion. For example, a Number might be returned by a method. JScript treats all numbers in the same way, but other languages distinguish
+          between different types of numbers (integer, floating point, and so on). The reference gives the C++ conversion for number data types because numbers can be processed differently by C++. For example, C++ uses the int data type for integer
+          arithmetic and float for floating point.</p>
+
       </article>
     </section>
 
